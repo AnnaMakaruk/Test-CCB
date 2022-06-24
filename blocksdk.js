@@ -8,7 +8,7 @@
 var SDK = function (whitelistOverride, sslOverride) {
 
 	// the custom block should verify it is being called from ()()()()
-	// the marketing cloud
+	// the marketing cloud)))
 	this._validateOrigin = function (origin) {
 		// Make sure to escape periods since these strings are used in a regular expression
 		var allowedDomains = whitelistOverride || ['marketingcloudapps\\.com', 'blocktester\\.herokuapp\\.com'];
